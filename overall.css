@@ -1,0 +1,599 @@
+ .bodylogin,
+ .bodysignup {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 105vh;
+     font-weight: 900;
+     font-size: 16px;
+ }
+
+
+ form {
+     background-color: #ffffff;
+     padding: 10px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-sizing: border-box;
+     max-width: 500px;
+     width: 90%;
+     height: auto;
+ }
+
+ label {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 8px;
+ }
+
+ input {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+     box-sizing: border-box;
+     height: 50px;
+     font-size: 20px;
+ }
+
+
+ #boot {
+     background-color: #4caf50;
+     color: #ffffff;
+     padding: 10px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 50px;
+     justify-content: center;
+     width: 100%;
+     max-width: 300px;
+     text-decoration: none;
+
+ }
+
+ .h:hover {
+     text-decoration: underline;
+     font-size: 1.1em;
+
+ }
+
+ label,
+ input,
+ #boot {
+     width: 100%;
+     margin-bottom: 15px;
+ }
+
+ .imglog {
+     width: 39%;
+     height: auto;
+     margin-top: 40px;
+
+ }
+
+ .invaled {
+
+     color: red;
+     font-size: 14px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+
+ .imagesign {
+     width: 39%;
+     height: auto;
+     margin-top: 120px;
+
+ }
+
+ .errormessage {
+     color: red;
+     font-size: 14px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ @media only screen and (max-height: 932px) and (max-width: 500px) {
+     .bodylogin {
+         font-size: 18px;
+         height: auto;
+     }
+
+     .formlog {
+         max-width: 100%;
+         padding: 10px;
+         margin-top: 300px;
+     }
+
+     .h,
+     .hover {
+         max-width: 300px;
+         padding: 10px;
+         margin-bottom: 39px;
+
+     }
+
+     .imglog {
+         max-width: 39%;
+         margin-bottom: 10px;
+
+     }
+
+     h1 {
+         max-width: 150px;
+         text-align: center;
+         font-size: medium;
+     }
+
+     label,
+     .h {
+         width: 100%;
+     }
+
+     .h {
+         margin-bottom: 100px;
+     }
+
+     .bodysignup {
+         font-size: 18px;
+         height: auto;
+
+     }
+
+     .formsign {
+         max-width: 100%;
+         padding: 15px;
+
+
+     }
+
+     .h,
+     .inputsign {
+         max-width: 300px;
+         padding: 10px;
+         margin-bottom: 20px;
+
+     }
+
+     .imagesign {
+         max-width: 39%;
+         margin-bottom: 10px;
+
+     }
+
+     h1 {
+         max-width: 150px;
+         text-align: center;
+         font-size: medium;
+     }
+
+     label,
+     .h {
+         width: 100%;
+     }
+
+     .h {
+         margin-bottom: 10px;
+     }
+ }
+
+
+ /*-------------------------------------------------------home page------------------------------------------------------------------------*/
+ .bodyhome {
+     font-family: 'Arial', sans-serif;
+     background-color: #f2f2f2;
+     margin: 0;
+     padding: 0;
+ }
+
+ .navov {
+     background-color: #333;
+     color: #ffffff;
+     padding: 7px 0 0;
+     display: flex;
+     justify-content: space-between;
+     height: 50px;
+ }
+
+ header {
+
+     color: #000000;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ h1,
+ h2,
+ h3 {
+     color: #001f3f;
+ }
+
+ .links {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .service-box {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     margin: 10px;
+ }
+
+ #butt {
+     background-color: #001f3f;
+     color: #ffffff;
+     padding: 10px 20px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+
+ .button a {
+     color: #ffffff;
+     text-decoration: none;
+ }
+
+ #butt:hover {
+     text-decoration: underline;
+     font-size: 1.2em;
+ }
+
+ section {
+     max-width: 800px;
+     margin: 20px auto;
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ section h2 {
+     color: #001f3f;
+ }
+
+ section ol {
+     padding-left: 20px;
+ }
+
+ section p {
+     color: #555555;
+ }
+
+ .array {
+     position: relative;
+     bottom: 42px;
+     width: 50px;
+     height: 50px;
+ }
+
+ /*------------------------------------------------------------register page---------------------------------------------------------------*/
+ .bodyreg {
+     font-family: Arial, sans-serif;
+     background-color: #ececec;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     font-weight: 900;
+ }
+
+ .formreg {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     top: 80px;
+
+
+ }
+
+ label {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 8px;
+     width: 100%;
+ }
+
+ select,
+ input {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+     box-sizing: border-box;
+     height: 50px;
+     font-size: 20px;
+ }
+
+ .h {
+
+     background-color: #4caf50;
+     color: #ffffff;
+     padding: 10px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     width: 300px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 50px;
+     justify-content: center;
+     text-decoration: underline #4caf50;
+
+
+ }
+
+ .h:hover {
+     text-decoration: underline;
+     font-size: 1.2em;
+
+ }
+
+ .arr {
+
+     width: 30px;
+     height: 30px;
+     position: fixed;
+     bottom: 700px;
+     left: 520px;
+
+ }
+
+ .reimage {
+     width: 45%;
+     height: auto;
+     margin-top: 250px;
+
+ }
+
+ /*-----------------------------------------------------------renew page---------------------------------------------------------------*/
+ .renbody {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     font-weight: 900;
+ }
+
+ .formren {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ label {
+     display: flex;
+     justify-content: center;
+
+     margin-bottom: 8px;
+ }
+
+ input {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+     box-sizing: border-box;
+     height: 50px;
+     font-size: 20px;
+ }
+
+
+
+ .h:hover {
+     text-decoration: underline;
+     font-size: 1.2em;
+
+ }
+
+ .arrren {
+     width: 30px;
+     height: 30px;
+     position: fixed;
+     bottom: 700px;
+     left: 520px;
+
+
+ }
+
+ .renimage {
+     width: 45%;
+     height: auto;
+     margin-top: 160px;
+
+ }
+
+ /*----------------------------------------------------thanks page--------------------------------------------------------------------------*/
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .has {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 20px;
+
+ }
+
+ .have {
+     background-color: #333;
+     color: #ffffff;
+     padding: 7px 0 0;
+     display: flex;
+     justify-content: space-between;
+     height: 50px;
+ }
+
+ .imagethank {
+     max-width: 100%;
+     height: auto;
+     margin-top: 15px;
+
+ }
+
+ .arrorr {
+     width: 50px;
+     height: 50px;
+     position: relative;
+     bottom: 40px;
+ }
+
+ .die {
+     font-size: larger;
+     color: #000000;
+ }
+
+ /*----------------------------------------------------------profile page------------------------------------------------------------------*/
+ .bodypro {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+
+ }
+
+ .headerd {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 1px;
+     font-size: 16px;
+ }
+
+ .navmon {
+     background-color: #333;
+     color: #fff;
+     padding: 0px 0;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .mainmon {
+     max-width: 600px;
+     margin: 20px auto;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .imgpro {
+     display: block;
+     margin: 0 auto;
+     border-radius: 50%;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 20px;
+
+
+ }
+
+ .imgproo {
+     width: 50px;
+     height: 50px;
+     margin: 0 auto;
+
+     max-width: 100%;
+     height: auto;
+     margin-top: 16px;
+ }
+
+ .fa.fa-sign-out.log {
+     font-size: 50px;
+     color: black;
+     margin-top: 20px;
+ }
+
+ p {
+     color: #555;
+     font-size: 14px;
+ }
+
+ .government-info {
+     margin-top: 15px;
+     padding: 10px;
+     background-color: #e6e6e6;
+     border-radius: 5px;
+ }
+
+ .ham {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 10px;
+ }
+
+ .inp {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+     box-sizing: border-box;
+     height: 50px;
+ }
+
+ .formpro {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width: 600px;
+     margin: 20px auto;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+ }
+
+ label {
+     margin-top: 10px;
+ }
+
+ .ebed {
+     position: relative;
+     top: 30px;
+     margin-bottom: 10px;
+     color: #ffffff;
+ }
+
+ .ah {
+     width: 300px;
+     text-decoration: none;
+ }
+
+ .ah:hover {
+     width: auto;
+     text-decoration: underline;
+     font-size: 1.1em;
+
+ }
+
+ .log {
+     color: black;
+ }
